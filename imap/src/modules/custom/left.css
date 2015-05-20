@@ -1,0 +1,77 @@
+﻿
+ .leftDiv {
+    padding: 0px;
+    margin: 0px;
+}
+
+.leftDiv .dijitAccordionTitle 
+{
+    padding:10px;   
+}
+.claro .dijitAccordionContainer .dijitAccordionChildWrapper 
+{
+    margin:0px;
+    border: 0px;
+}
+.claro .dijitAccordionInnerContainer 
+{
+    border: 0px;
+}
+
+.leftMapsArray
+{
+    height: 50px;
+    background-color: #efefef;
+    border-top: #B6BBC1 solid 1px;
+    border-bottom: #B6BBC1 solid 1px;
+    cursor: pointer;
+    position: relative;
+}
+.leftMapsArray:hover
+{
+    background-color: #DCECFD;    
+}
+.selected
+{
+    height: 100%;
+    cursor: auto;
+    border-top: #4374A3 solid 1px;
+    border-bottom: #4374A3 solid 1px;    
+    background-color: #cfe5fa;
+}
+.arrow-right
+{
+    width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #4374A3;
+	top: 25px;
+	position:absolute;
+}
+.leftMapsArray img
+{
+   /* width: 190px;  */
+    float:left;
+    padding: 0px 10px 0px 0px;
+}
+.selected p
+{
+}
+.leftMapsArray h1
+{
+    padding-left:20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.selected h1
+{
+    padding: 10px 0px 10px 20px;
+}
+.leftMapInfo
+{
+    background-color: #fff;
+    padding: 10px;
+    min-height: 250px;    
+}
