@@ -158,8 +158,6 @@ define(["dojo/_base/declare", "../utilities/environment", "dojo/_base/lang", "do
                         );
                     }
 					
-					
-					
 						    // initalize custom popups for MDP LULC
                     if (this._AppConfig.displaycustompopup === 'true' || this._AppConfig.displaycustompopup === true) {
                         require(["../../custom/CustomPopup/CustomPopup"],

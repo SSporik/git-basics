@@ -47,7 +47,7 @@ define(["dojo/_base/declare", "dojox/html/entities", "dojo/_base/lang", "dojo/Ev
                     //specify an owner for the app - used by the print option. The default value will be the web map's owner
                     owner: 'MD Planning',
 		    
-		    dynTheme: "dynMain",
+		            dynTheme: "dynMain",
 
                     //*** Layout ***
                     //Specify a color theme for the app. Valid options are gray,blue,purple,green and orange
@@ -89,15 +89,15 @@ define(["dojo/_base/declare", "dojox/html/entities", "dojo/_base/lang", "dojo/Ev
                     //will not be able to pan/zoom outside the initial extent.
                     constrainmapextent: false,
                     //embed means the margins will be collapsed to just include the map no title or links, default is to embed if in iframe
-                    embed: (environment.IframeEmbedded || environment.WindowHeight < 600)
+                    embed: (environment.IframeEmbedded || environment.WindowHeight < 600),
 
                     //*** Widgets ***
                     //Set startupwidget to one of variable names to show on startup.
                     // To hide on startup, set startupwidget to 'none'
                     //, displaydetails: false,
-		     , displaydetails: true,
+		            displaydetails: true,
                     tablecontents: false,
-		    tablecontents5: false,
+		            tablecontents5: false,
                     adddata: false,
                     displayeditor: false,
                     startupwidget: 'displaydetails',
@@ -181,10 +181,9 @@ define(["dojo/_base/declare", "dojox/html/entities", "dojo/_base/lang", "dojo/Ev
                     placefinder: {
 					    "url": "http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
                         "countryCode":""
-						
                     },
                     displaypointtransp: false,
-					displaycustompopup: false,
+					displaycustompopup: true
                 };
 
                 this._setDefaults(configOptions);
