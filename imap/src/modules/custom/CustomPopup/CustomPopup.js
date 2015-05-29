@@ -163,7 +163,7 @@ define(["dojo/_base/declare", "dijit/_WidgetBase", "dijit/_TemplatedMixin", "doj
                         }
                     },
                     tooltip: {
-                        show: false,
+                        show: true,
                         format: {
                             //title: function (d) { return 'Data ' + d; },
                             name: function(name, ratio, id, index) {
